@@ -1,16 +1,16 @@
 # System Settings
 
-In system settings (*Settings* > *System Settings*) system wide settings fpr Pimcore can be made. Changes should 
+In system settings (*Settings* > *System Settings*) system wide settings for Pimcore can be made. Changes should 
 be made with care and only by developers. 
 These settings are saved in `var/config/system.php`. 
 
 
 ## General 
-Contains general settings about timezone, view suffix, additional path variables, default langauge, user interface etc.
+Contains general settings about timezone, view suffix, additional path variables, default language, user interface etc.
 
  
 ## Localization & Internationalization (i18n/l10n) 
-This settings are used in documents to specify the content language (in properties tab), for objects in localized-fields, 
+These settings are used in documents to specify the content language (in properties tab), for objects in localized-fields, 
 for shared translations, ... simply everywhere the editor can choose or use a language for the content.
 Fallback languages are currently used in object's localized fields and shared translations.
 
@@ -34,7 +34,7 @@ environment to `dev` when enabling the debug mode and if **no** environment is
 
 If you are using `Pimcore\Mail` to send emails and the Debug Mode is enabled, all emails will be sent to the debug email 
 receivers defined in *Settings* > *System Settings* > *Email Settings* > *Debug email addresses*. In addition a debug 
-information is attached to the email which shows you to who the email would be sent if the debug mode is disabled.
+information is attached to the email which shows you to who the email would be sent to if the debug mode would be disabled.
 
 To check anywhere in your own code if you are working in debug-mode, you can make use of the `PIMCORE_DEBUG` constant.
 
@@ -54,15 +54,15 @@ Settings for default values of Mails sent via `Pimcore\Mail`.
 
 
 ## Website
-System settins about the CMS part of Pimcore. 
+System settings about the CMS part of Pimcore. 
 
 ### EU Cookie Policy Notice
-Pimcore has a default implementation for EU cookie policy that looks like as follows. 
+Pimcore has a default implementation for the EU cookie policy which looks as follows. 
 
 ![Cookie Policy](../img/system-settings-sample.png)
 
 
-You can specify your own texts and add your custom detail link using the "Shared Translations".
+You can specify your own texts and add a custom detail link using the "Shared Translations".
 Just search for "cookie-" in Shared Translations, then you get listed the predefined keys for the cookie 
 texts and links:
 
@@ -109,7 +109,7 @@ Settings for default output filters shipped with Pimcore.
 
 
 ## Web Service API
-Settings fpr Pimcore web service API. 
+Settings for Pimcore web service API. 
 
 
 ## HTTP Connectivity (direct, proxy, ...)
