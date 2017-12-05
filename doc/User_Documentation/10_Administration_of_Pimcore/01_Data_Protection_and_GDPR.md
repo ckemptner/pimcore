@@ -4,12 +4,12 @@ Pimcore provides several tools and settings to provide GDPR compliance and suppo
 with corresponding tasks. 
 
 
-> Please note: Since Pimcore is a framework, therefore the final responsibility for GDPR compliance is always with the 
+> Please note: Since Pimcore is a framework, the final responsibility for GDPR compliance is always with the 
 > solution provider, implementation partner and owner of an actual solution.  
 
 ## Restriction of Access
 
-Restriction of data access is archived with Pimcores extensive permission system. It allows to restrict accessing, 
+Restriction of data access is achieved with Pimcores extensive permission system. It allows to restrict accessing, 
 changing and deleting information on user and role level. For details see 
 [User and Roles documentation](../../Development_Documentation/22_Administration_of_Pimcore/07_Users_and_Roles.md). 
 
@@ -53,7 +53,7 @@ takes care of the rest.
 
 Also in terms of erasure of information, Pimcores single source publishing comes in handy. Once a data element (e.g. data
 object) is deleted, Pimcore automatically cleans up all related data (e.g. versions, etc.) and updates the places where  
-it used. 
+it was used.
 
 > Of course Pimcore cannot cleanup external data copies or backups. This has to be taken care of by the owner of the actual solution. 
 
