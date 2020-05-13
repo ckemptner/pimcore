@@ -213,7 +213,7 @@ With this baseline file include, Travis can detect new errors without having to 
 
 ## PHPStan Level Overview
 
-| Level | Checks                                                                                                                                                                         |
+| Level | Checks                                                                                                                                                                       |
 | ----- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | 0     | basic checks, unknown classes, unknown functions, unknown methods called on $this, wrong number of arguments passed to those methods and functions, always undefined variables |
 | 1     | possibly undefined variables, unknown magic methods and properties on classes with __call and __get                                                                            |
